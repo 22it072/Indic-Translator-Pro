@@ -1,0 +1,49 @@
+name: lab1
+description: A beautiful mobile application for real-time voice-to-text and text-to-voice translation for Indian regional languages.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.17
+  animated_text_kit: ^4.2.2
+  flutter_staggered_animations: ^1.0.0
+  # UI
+  cupertino_icons: ^1.0.5
+  google_fonts: ^5.1.0
+  avatar_glow: ^2.0.2
+  animate_do: ^3.0.2
+
+  # Translation
+  translator: 1.0.3+1
+
+  # Speech recognition
+  speech_to_text: ^6.3.0
+
+  # Text to speech
+  flutter_tts: ^3.8.3
+
+  # State management
+  provider: ^6.0.5
+
+  # Additional utilities
+  shared_preferences: ^2.2.1
+  fluttertoast: ^8.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
